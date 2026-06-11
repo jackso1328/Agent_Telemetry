@@ -4,7 +4,7 @@
 ### Autonomous SRE Command Center for Industrial IoT
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.14-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10-green.svg)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-red.svg)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen.svg)
 ![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange.svg)
