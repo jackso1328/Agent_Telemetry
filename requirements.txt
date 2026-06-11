@@ -1,0 +1,6 @@
+streamlit==1.42.0
+pymongo==4.11.1
+certifi
+pandas
+google-genai
+python-dotenv
