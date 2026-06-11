@@ -8,6 +8,13 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 
+import asyncio
+# Magic fix for Streamlit Cloud threading issues
+try:
+    asyncio.get_running_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
+
 # --- 0. SECURITY & ENV SETUP ---
 # Load sensitive keys from .env file
 load_dotenv()
